@@ -1,0 +1,167 @@
+﻿La génération a démarré 05.07.2014 19:45:26.
+     1>Projet "H:\Dropbox\Bricolage\Electronique\Cube3D\Programmation\RGB\CubeRGB\CubeRGB.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         H:\Installation Jeux\VS 2013\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino" /I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\mega" /I"C:\Program Files (x86)\Arduino\libraries" /I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries" /I"C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers" /IC:\Users\Dylan\Documents\Arduino\libraries /I"c:\program files (x86)\arduino\hardware\tools\avr\avr\include\\" /I"c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\\" /I"c:\program files (x86)\arduino\hardware\tools\avr\avr\\" /I"c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\\" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D __AVR_ATmega2560__ /D ARDUINO=156 /D ARDUINO_MAIN /D __AVR__ /D __avr__ /D F_CPU=16000000L /D __cplusplus /D _MBCS /X /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /FI"H:\Dropbox\Bricolage\Electronique\Cube3D\Programmation\RGB\CubeRGB\Visual Micro\.CubeRGB.vsarduino.h" /analyze- /errorReport:prompt Cube.cpp
+         Cube.cpp
+     1>c1xx : warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\visual micro\.cubergb.vsarduino.h(13): warning C4005: '__AVR_ATmega2560__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR_ATmega2560__'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\visual micro\.cubergb.vsarduino.h(15): warning C4005: 'ARDUINO_MAIN' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO_MAIN'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\visual micro\.cubergb.vsarduino.h(16): warning C4005: '__AVR__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__AVR__'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\visual micro\.cubergb.vsarduino.h(17): warning C4005: '__avr__' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de '__avr__'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\visual micro\.cubergb.vsarduino.h(19): warning C4117: nom de macro '__cplusplus' réservé, '#define' ignoré
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\visual micro\.cubergb.vsarduino.h(26): warning C4005: '__asm__' : redéfinition de macro
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\visual micro\.cubergb.vsarduino.h(21) : voir la définition précédente de '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\stddef.h(214): error C2371: 'size_t' : redéfinition ; types de base différents
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\predefined c++ types (compiler internal)(19) : voir la déclaration de 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\stdlib.h(106): error C3646: '__ATTR_NORETURN__' : spécificateur de substitution inconnu
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\stdlib.h(152): error C2072: 'div' : initialisation d'une fonction
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\stdlib.h(152): error C2440: 'initialisation' : impossible de convertir de 'const char [12]' en 'div_t (int,int)'
+                 Aucune conversion en types fonction, même s'il y des conversions en références ou en pointeurs de fonctions
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\stdlib.h(158): error C2072: 'ldiv' : initialisation d'une fonction
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\stdlib.h(158): error C2440: 'initialisation' : impossible de convertir de 'const char [12]' en 'ldiv_t (long,long)'
+                 Aucune conversion en types fonction, même s'il y des conversions en références ou en pointeurs de fonctions
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\stdlib.h(278): error C3646: '__ATTR_NORETURN__' : spécificateur de substitution inconnu
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\stdlib.h(290): error C3646: '__ATTR_MALLOC__' : spécificateur de substitution inconnu
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\stdlib.h(319): error C3646: '__ATTR_MALLOC__' : spécificateur de substitution inconnu
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\stdlib.h(338): error C3646: '__ATTR_MALLOC__' : spécificateur de substitution inconnu
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(336): error C2143: erreur de syntaxe : absence de ')' avant ':'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(337): error C2059: erreur de syntaxe : ')'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(413): error C2143: erreur de syntaxe : absence de ')' avant ':'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(414): error C2059: erreur de syntaxe : ')'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(123): warning C4091: 'typedef ' : ignoré à gauche de 'void' quand aucune variable n'est déclarée
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\interrupt.h(110): error C2010: '[' : inattendu dans la liste de paramètres formels d'une macro
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\interrupt.h(110): error C2010: ']' : inattendu dans la liste de paramètres formels d'une macro
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\stdarg.h(43): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(58): warning C4005: 'ARDUINO' : redéfinition de macro
+                 arguments de ligne de commande : voir la définition précédente de 'ARDUINO'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cubergb.ino(6): warning C4005: 'ARDUINO' : redéfinition de macro
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(58) : voir la définition précédente de 'ARDUINO'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cubergb.ino(23): warning C4003: nombre de paramètres réels insuffisants pour la macro 'ISR'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cubergb.ino(24): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(42): error C2446: '==' : pas de conversion de 'const char *' en 'int'
+                 Aucun contexte dans lequel cette conversion est possible
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(42): error C2040: '==' : les niveaux d'indirection de 'int' et de 'const char [4]' sont différents
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(52): error C2446: '==' : pas de conversion de 'const char *' en 'int'
+                 Aucun contexte dans lequel cette conversion est possible
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(52): error C2040: '==' : les niveaux d'indirection de 'int' et de 'const char [5]' sont différents
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(66): error C2059: erreur de syntaxe : 'suffixe de nombre incorrect'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(66): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur 'b00000111'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(66): error C2059: erreur de syntaxe : ')'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(92): error C2446: '==' : pas de conversion de 'const char *' en 'int'
+                 Aucun contexte dans lequel cette conversion est possible
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(92): error C2040: '==' : les niveaux d'indirection de 'int' et de 'const char [5]' sont différents
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(114): warning C4554: '<<' : vérifiez la priorité des opérateurs comme cause possible d'erreur ; utilisez des parenthèses pour rendre plus claires les priorités
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(117): error C2059: erreur de syntaxe : 'suffixe de nombre incorrect'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(117): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'b11110111'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(117): error C2065: 'b11110111' : identificateur non déclaré
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(396): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(408): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(423): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(424): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(425): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(426): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(427): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(428): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(429): warning C4244: '=' : conversion de 'long' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(463): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(622): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(630): error C2057: expression constante attendue
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(630): error C2466: impossible d'allouer un tableau de taille constante 0
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(630): error C2133: 'pts' : taille inconnue
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(635): warning C4305: '+=' : troncation de 'double' à 'float'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(638): warning C4305: '+=' : troncation de 'double' à 'float'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(643): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(644): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(645): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(646): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(654): warning C4305: '+=' : troncation de 'double' à 'float'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(655): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(659): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(660): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(672): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1027): error C2057: expression constante attendue
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1027): error C2466: impossible d'allouer un tableau de taille constante 0
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1027): error C2133: 'pts' : taille inconnue
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1030): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1035): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1036): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1037): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1038): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1042): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1043): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1044): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1045): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1049): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1050): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1051): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1052): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1076): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(28): error C2084: la fonction 'Cube::Cube(void)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(63) : voir la définition précédente de '{ctor}'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(33): error C2084: la fonction 'Cube::~Cube(void)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(64) : voir la définition précédente de '{dtor}'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(38): error C2084: la fonction 'void Cube::setup(void)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(65) : voir la définition précédente de 'setup'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(88): error C2084: la fonction 'void Cube::refresh(void)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(66) : voir la définition précédente de 'refresh'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(134): error C2084: la fonction 'void Cube::light(char)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(68) : voir la définition précédente de 'light'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(279): error C2084: la fonction 'void Cube::effect_rain(int)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(80) : voir la définition précédente de 'effect_rain'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(391): error C2084: la fonction 'void Cube::feuArtifice(void)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(73) : voir la définition précédente de 'feuArtifice'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(475): error C2084: la fonction 'void Cube::jeuJohnConway(int)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(74) : voir la définition précédente de 'jeuJohnConway'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(590): error C2084: la fonction 'void Cube::shiftPlaneRGB(int)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(75) : voir la définition précédente de 'shiftPlaneRGB'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(615): error C2084: la fonction 'void Cube::sinusRotation(void)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(76) : voir la définition précédente de 'sinusRotation'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(682): error C2084: la fonction 'void Cube::faceTombante(void)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(78) : voir la définition précédente de 'faceTombante'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(716): error C2084: la fonction 'void Cube::setvoxel(int,int,int,int)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(100) : voir la définition précédente de 'setvoxel'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(734): error C2084: la fonction 'void Cube::clrvoxel(int,int,int,int)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(101) : voir la définition précédente de 'clrvoxel'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(751): error C2084: la fonction 'unsigned char Cube::inrange(int,int,int,int)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(103) : voir la définition précédente de 'inrange'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(764): error C2084: la fonction 'bool Cube::isRed(int)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(104) : voir la définition précédente de 'isRed'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(769): error C2084: la fonction 'bool Cube::isGreen(int)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(105) : voir la définition précédente de 'isGreen'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(774): error C2084: la fonction 'bool Cube::isBlue(int)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(106) : voir la définition précédente de 'isBlue'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(782): error C2084: la fonction 'unsigned char Cube::getvoxel(int,int,int,int)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(112) : voir la définition précédente de 'getvoxel'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(807): error C2084: la fonction 'void Cube::altervoxel(int,int,int,int)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(109) : voir la définition précédente de 'altervoxel'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(845): error C2084: la fonction 'void Cube::setplane_z(int,char)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(118) : voir la définition précédente de 'setplane_z'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(871): error C2084: la fonction 'void Cube::clrplane_z(int)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(119) : voir la définition précédente de 'clrplane_z'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(885): error C2084: la fonction 'void Cube::setplane_x(int,char)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(120) : voir la définition précédente de 'setplane_x'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(917): error C2084: la fonction 'void Cube::clrplane_x(int)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(121) : voir la définition précédente de 'clrplane_x'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(937): error C2084: la fonction 'void Cube::setplane_y(int,char)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(122) : voir la définition précédente de 'setplane_y'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(964): error C2084: la fonction 'void Cube::clrplane_y(int)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(123) : voir la définition précédente de 'clrplane_y'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(980): error C2084: la fonction 'void Cube::setplane(char,unsigned char,unsigned char)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(124) : voir la définition précédente de 'setplane'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(998): error C2084: la fonction 'void Cube::clrplane(char,unsigned char)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(125) : voir la définition précédente de 'clrplane'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1017): error C2084: la fonction 'void Cube::setPlaneAngle(char,char,char,char,unsigned char,int)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(127) : voir la définition précédente de 'setPlaneAngle'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1086): error C2084: la fonction 'void Cube::fill(unsigned char,unsigned char)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(129) : voir la définition précédente de 'fill'
+     1>h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.cpp(1304): error C2084: la fonction 'void Cube::shift(char,int)' a déjà un corps
+                 h:\dropbox\bricolage\electronique\cube3d\programmation\rgb\cubergb\cube.h(138) : voir la définition précédente de 'shift'
+     1>Génération du projet "H:\Dropbox\Bricolage\Electronique\Cube3D\Programmation\RGB\CubeRGB\CubeRGB.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:00.10
