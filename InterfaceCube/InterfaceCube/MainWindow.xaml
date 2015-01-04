@@ -1,0 +1,31 @@
+﻿<Window x:Class="InterfaceCube.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:InterfaceCube"
+        Title="MainWindow" Height="600
+        " Width="525" Closing="Window_Closing">
+    <DockPanel>
+        <Border DockPanel.Dock="Top">
+            <Menu>
+                <MenuItem Header="Application">
+                    <MenuItem Header="Close" Name="Menu_Close" Click="Menu_Close_Click"></MenuItem>
+                </MenuItem>
+            </Menu>
+        </Border>
+
+        <StatusBar DockPanel.Dock="Bottom" Height="35">
+            <StackPanel Orientation="Horizontal">
+                <Button Margin="3" Name="Button_ResetCube" Click="Button_ResetCube_Click" IsEnabled="False">Reset Cube</Button>
+                <Button Margin="3" Name="Button_ConnectSerial" Click="Button_StartSerial_Click" IsEnabled="False">Connect serial</Button>
+            </StackPanel>
+        </StatusBar>
+
+        <TabControl Name="TabControl">
+            <TabItem Header="Function" Name="Function" />
+            <TabItem Header="Test" Name="Test" />
+            <TabItem Header="Configuration" Name="Configuration" />
+            <TabItem Header="Sound" Name="Sound" />
+        </TabControl>
+
+    </DockPanel>
+</Window>

@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="InterfaceCube.Test"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="400">
+    <StackPanel>
+        <GroupBox Header="Pixel - PLane" Margin="5" HorizontalContentAlignment="Center">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton Margin="5" Name="RadioButton_Pixel" IsChecked="True">Pixel</RadioButton>
+                    <RadioButton Margin="5" Name="RadioButton_Plane">Plane</RadioButton>
+                </StackPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50" />
+                        <ColumnDefinition Width="150"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" Margin="5">X</Label>
+                    <Label Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" Margin="5">Y</Label>
+                    <Label Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center" Margin="5">Z</Label>
+                    <Label Grid.Column="0" Grid.Row="3" HorizontalAlignment="Center" Margin="5">RGB</Label>
+
+                    <Slider Grid.Column="1" Grid.Row="0" Name="Slider_X" Margin="5" Width="100" Maximum="7" TickFrequency="1" TickPlacement="BottomRight" ValueChanged="Slider_ValueChanged" IsSnapToTickEnabled="True"></Slider>
+                    <Slider Grid.Column="1" Grid.Row="1" Name="Slider_Y" Margin="5" Width="100" Maximum="7" TickFrequency="1" TickPlacement="BottomRight" ValueChanged="Slider_ValueChanged" IsSnapToTickEnabled="True"></Slider>
+                    <Slider Grid.Column="1" Grid.Row="2" Name="Slider_Z" Margin="5" Width="100" Maximum="7" TickFrequency="1" TickPlacement="BottomRight" ValueChanged="Slider_ValueChanged" IsSnapToTickEnabled="True"></Slider>
+                    <Slider Grid.Column="1" Grid.Row="3" Name="Slider_RGB" Margin="5" Width="100" Maximum="7" TickFrequency="1" TickPlacement="BottomRight" ValueChanged="Slider_ValueChanged" IsSnapToTickEnabled="True"></Slider>
+                </Grid>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Margin="5" Header="Cube" HorizontalContentAlignment="Left">
+            <Slider Maximum="7" Width="200" IsSnapToTickEnabled="True" TickFrequency="1" TickPlacement="BottomRight" Name="Slider_Cube" ValueChanged="Slider_Cube_ValueChanged"/>
+        </GroupBox>
+    </StackPanel>
+</UserControl>
